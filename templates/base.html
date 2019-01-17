@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>天津国创中和企业管理有限公司</title>
+    <link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    {% include 'header.html' %}
+    {% block main %}
+
+    {% endblock %}
+    {% include 'footer.html' %}
+</body>
+</html>
